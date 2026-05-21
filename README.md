@@ -4,8 +4,6 @@
 ## Objective
 Compare the results predicted by the linear system model of an optical fiber with the results of simulation.
 
----
-
 ## Theory
 An optical fiber can be represented approximately by a linear system with an impulse response \(h(t)\) or a transfer function \(H(j\omega)\).  
 
@@ -13,17 +11,10 @@ If the optical source has a spectral width much greater than the signal bandwidt
 
 <img width="1482" height="1120" alt="image" src="https://github.com/user-attachments/assets/83f63473-b1b3-4afc-ad17-9e9850041cae" />
 
-
----
-
 ### Output Pulse Broadening
 If a Gaussian pulse is input to a linear system with a Gaussian impulse response, the output is also Gaussian with RMS width:
 
 <img width="340" height="102" alt="image" src="https://github.com/user-attachments/assets/c60d35c1-8a0f-4c50-873d-1314ec59a29f" />
-
-
-
----
 
 ## Calculations
 **System Parameters:**
@@ -40,7 +31,6 @@ If a Gaussian pulse is input to a linear system with a Gaussian impulse response
 **Required Calculations:**
 <img width="1548" height="298" alt="image" src="https://github.com/user-attachments/assets/b2fb676a-afb0-48ef-914b-309b2ea38a17" />
 
-
 ## Layout
 Place and connect the following components:
 1. **User-defined bit sequence generator** – set to generate a single pulse of the specified width  
@@ -48,15 +38,11 @@ Place and connect the following components:
 3. **Optical fiber** – set according to specifications  
 4. **Optical spectrum analyzers** and **optical time domain visualizers** at input and output of fiber  
 
----
-
 ## Simulation
 - Set the parameters and run the simulation.  
 - Use the visualizer displays to measure:  
   - FWHM width of input and output pulses  
   - FWHM width of optical spectra  
-
----
 
 ## Analysis
 Compare the simulation results with the theoretical calculations and discuss any observed differences.
@@ -64,8 +50,5 @@ Compare the simulation results with the theoretical calculations and discuss any
 <img width="918" height="1478" alt="image" src="https://github.com/user-attachments/assets/28b2ba89-fbe3-4aa0-bf6d-96e546173da0" />
 <img width="1920" height="1080" alt="Screenshot 2026-05-16 141431" src="https://github.com/user-attachments/assets/2e52f3aa-c7af-4371-9925-511146cf9f37" />
 
-
-
----
  Results to Record
 <img width="1448" height="1015" alt="Screenshot 2026-02-05 113211" src="https://github.com/user-attachments/assets/5a7b450e-e6d6-4efc-8c33-791775fdfa8c" />
